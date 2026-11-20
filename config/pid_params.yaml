@@ -1,0 +1,24 @@
+pid_node:
+  ros__parameters:
+    kp_u: 1.5
+    ki_u: 0.2
+    kd_u: 0.05
+    kp_psi: 2.0
+    ki_psi: 0.1
+    kd_psi: 0.3
+    i_max: 1.0
+    tau_u_max: 5.0
+    tau_r_max: 3.0
+    control_rate: 50.0
+
+allocation_node:
+  ros__parameters:
+    thruster_separation: 0.3
+    force_to_vel_scale: 0.2
+    torque_to_omega_scale: 0.5
+
+path_following_node:
+  ros__parameters:
+    cruise_velocity: 0.20
+    acceptance_radius: 0.25
+    waypoints_flat: [2.0, 0.0, 2.0, 2.0, 0.0, 2.0, 0.0, 0.0]
