@@ -71,7 +71,7 @@ Requires Ubuntu 22.04 (or WSL 2), **ROS 2 Humble**, and `turtlebot3_gazebo`.
 ```bash
 mkdir -p ~/tsb_ws/src
 cd ~/tsb_ws/src
-git clone [https://github.com/](https://github.com/)<JoaoR77>/tsb_control.git
+git clone https://github.com/JoaoR77/tsb_control.git
 cd ~/tsb_ws
 colcon build --symlink-install
 source install/setup.bash
